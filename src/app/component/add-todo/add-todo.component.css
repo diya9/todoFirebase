@@ -1,0 +1,9 @@
+.collection{
+    border:2px dashed rgb(90, 5, 72);
+}
+
+.pink-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3em;
+    letter-spacing: 0.000898em;
+}
