@@ -15,7 +15,7 @@ export class TodoService {
 
   constructor(public db: AngularFirestore) {
     this.todoList = this.db.collection('task');
-    this.todos = this.db.collection('task').snapshotChanges().map(changes => {
+    this.todos = this.todoList.snapshotChanges().map(changes => {
       return changes.map(a => {
         const data = a.payload.doc.data() as List;
         data.id = a.payload.doc.id;
