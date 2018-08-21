@@ -6,12 +6,12 @@
 export const environment = {
   production: false,
   firebase : {
-    apiKey: "AIzaSyBVlAnlc94Dwr0XENs7rt1-UrSTSJ05Zfw",
-    authDomain: "todo-118cd.firebaseapp.com",
-    databaseURL: "https://todo-118cd.firebaseio.com",
-    projectId: "todo-118cd",
-    storageBucket: "todo-118cd.appspot.com",
-    messagingSenderId: "108601621347"
+    apiKey: "your-key",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: ""
 
   }
 };
